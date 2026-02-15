@@ -1,0 +1,21 @@
+.receitas {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+    padding: 5rem 0 0 5rem;
+}
+
+@media screen and (min-width: 0) {
+    .receitas {
+        padding: 4rem 0 0 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receitas {
+        padding: 5rem 0 0 3rem;
+    }
+}
+
